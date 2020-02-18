@@ -13,6 +13,10 @@
 		FD1C98551E1B187A001A5E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1C98531E1B187A001A5E5C /* Main.storyboard */; };
 		FD1C98571E1B187A001A5E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1C98561E1B187A001A5E5C /* Assets.xcassets */; };
 		FD1C985A1E1B187A001A5E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1C98581E1B187A001A5E5C /* LaunchScreen.storyboard */; };
+		FD1C98621E1B1C97001A5E5C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C98611E1B1C97001A5E5C /* ThirdViewController.swift */; };
+		FD33876D216271FC007547CD /* configurationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD33876C216271FC007547CD /* configurationIcon.png */; };
+		FD33876F2162721C007547CD /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = FD33876E2162721C007547CD /* view.png */; };
+		FD33877121627225007547CD /* mapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD33877021627225007547CD /* mapIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FD1C98561E1B187A001A5E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD1C98591E1B187A001A5E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD1C985B1E1B187A001A5E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1C98611E1B1C97001A5E5C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FD33876C216271FC007547CD /* configurationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configurationIcon.png; sourceTree = "<group>"; };
+		FD33876E2162721C007547CD /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		FD33877021627225007547CD /* mapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				FD1C984D1E1B187A001A5E5C /* AppDelegate.swift */,
 				FD1C984F1E1B187A001A5E5C /* FirstViewController.swift */,
 				FD1C98511E1B187A001A5E5C /* SecondViewController.swift */,
+				FD1C98611E1B1C97001A5E5C /* ThirdViewController.swift */,
 				FD1C98531E1B187A001A5E5C /* Main.storyboard */,
 				FD1C98561E1B187A001A5E5C /* Assets.xcassets */,
 				FD1C98581E1B187A001A5E5C /* LaunchScreen.storyboard */,
 				FD1C985B1E1B187A001A5E5C /* Info.plist */,
+				FD33876C216271FC007547CD /* configurationIcon.png */,
+				FD33876E2162721C007547CD /* view.png */,
+				FD33877021627225007547CD /* mapIcon.png */,
 			);
 			path = TabbedApp;
 			sourceTree = "<group>";
@@ -109,6 +121,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -128,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1C985A1E1B187A001A5E5C /* LaunchScreen.storyboard in Resources */,
+				FD33876F2162721C007547CD /* view.png in Resources */,
+				FD33876D216271FC007547CD /* configurationIcon.png in Resources */,
 				FD1C98571E1B187A001A5E5C /* Assets.xcassets in Resources */,
 				FD1C98551E1B187A001A5E5C /* Main.storyboard in Resources */,
+				FD33877121627225007547CD /* mapIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +158,7 @@
 			files = (
 				FD1C98521E1B187A001A5E5C /* SecondViewController.swift in Sources */,
 				FD1C984E1E1B187A001A5E5C /* AppDelegate.swift in Sources */,
+				FD1C98621E1B1C97001A5E5C /* ThirdViewController.swift in Sources */,
 				FD1C98501E1B187A001A5E5C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartY.TabbedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -283,7 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartY.TabbedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -306,6 +323,7 @@
 				FD1C98601E1B187A001A5E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
